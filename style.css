@@ -14,8 +14,12 @@ body {
   font-size: 5px;
   font-style: italic;
 }
-
-.title{
+#logo {
+  width:400px; 
+  height:300px;
+}
+  
+.title {
   text-align: right;
   color: yellow;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
