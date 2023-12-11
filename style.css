@@ -6,6 +6,15 @@ body {
   padding: 0;
 }
 
+.cited-img{  
+  width:140px;
+  display:block;
+  float:right;
+  text-align:center;
+  font-size: 5px;
+  font-style: italic;
+}
+
 .title{
   text-align: right;
   color: yellow;
