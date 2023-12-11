@@ -1,0 +1,16 @@
+body {
+  background-color: teal;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.title{
+  text-align: right;
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: "Comic Sans MS";
+  font-size: 60px;
+  margin-right: 10pc;
+}
