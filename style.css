@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: green;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -15,15 +15,31 @@ body {
   font-style: italic;
 }
 #logo {
-  width:400px; 
-  height:1px;
+  width:300px; 
+  height:100px;
 }
-  
+
+.square {
+  margin-left: auto; 
+  margin-right: 0;
+  height: 100px;
+  width: 300px;
+  background-color: #ffffff;
+}
+
 .title {
-  text-align: right;
-  color: yellow;
+  text-align: left;
+  color: #33f9d1;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: "Comic Sans MS";
-  font-size: 60px;
+  font-size: 30px;
+  margin-right: 10pc;
+}
+
+.basetext {
+  text-align: left;
+  color: #ffff42;
+  font-family: "Comic Sans MS";
+  font-size: 14px;
   margin-right: 10pc;
 }
