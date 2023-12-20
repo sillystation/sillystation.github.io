@@ -1,19 +1,58 @@
 body {
-  background-color: #0a8d4f;
+  background-image: url(https://github.com/sillystation/sillystation.github.io/blob/main/mycellstructurebg.png?raw=true);
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
 }
 
-.top-img{  
-  width:380px;
-  display:block;
-  float:right;
-  text-align:center;
-  font-size: 5px;
-  font-style: italic;
+/* splank we need,,, fucking,,,, sploinkster image to be 2 the right of the fucking,,,, paragrapsh......... how 2 do that  ,,, please i need it */
+
+.logo img{
+  position:absolute;
+  margin-top:0px;
+  margin-left:0px;
+  width:150px; 
+  height:50px;
+} 
+
+ /* Style the navigation bar */
+.navbar {
+  width: 126%;
+  background-image: url(https://github.com/sillystation/sillystation.github.io/blob/main/gradient.png?raw=true);
+  background-size: 50px;
+  overflow: auto;
+  margin-left:-13%;
+  margin-right: auto;
+  padding-left: 10%;
+  margin-top: -1%;
 }
+
+.navimg {
+  height:15px;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: #c4f00f;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #a04dfd;
+}
+
+
 
 #wunklogo{  
   width:100px;
@@ -31,20 +70,21 @@ body {
 }
 
 .square {
-  margin-left: auto; 
-  margin-right: 0;
+  float: right;
   height: 100px;
   width: 300px;
   background-color: #ffffff;
 }
 
+
+/* welcome 2 sillystation text */
 .title {
   text-align: left;
   color: #33f9d1;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: "Comic Sans MS";
   font-size: 30px;
-  margin-right: 10pc;
+  margin-right: 10px;
 }
 
 .basetext {
@@ -52,5 +92,14 @@ body {
   color: #ffff42;
   font-family: "Comic Sans MS";
   font-size: 14px;
-  margin-right: 10pc;
+  margin-right: 10px;
+}
+
+.img-with-text {
+    text-align: center;
+    margin-left: auto; 
+    margin-right: 0;
+    width: 200px;
+    color: #80ffff;
+    font-family: "Comic Sans MS";
 }
