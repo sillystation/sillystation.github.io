@@ -1,31 +1,21 @@
 body {
-  background-image: url(https://github.com/sillystation/sillystation.github.io/blob/main/mycellstructurebg.png?raw=true);
+  background-image: url("bgs/amongussexbg.png");
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
 }
 
-/* splank we need,,, fucking,,,, sploinkster image to be 2 the right of the fucking,,,, paragrapsh......... how 2 do that  ,,, please i need it */
-
-.logo img{
-  position:absolute;
-  margin-top:0px;
-  margin-left:0px;
-  width:150px; 
-  height:50px;
-} 
-
  /* Style the navigation bar */
 .navbar {
-  width: 126%;
-  background-image: url(https://github.com/sillystation/sillystation.github.io/blob/main/gradient.png?raw=true);
+  width: 115.5%;
+  background-image: url("");
   background-size: 50px;
   overflow: auto;
   margin-left:-13%;
   margin-right: auto;
   padding-left: 10%;
-  margin-top: -1%;
+  margin-top: -0.6%;
 }
 
 .navimg {
@@ -54,52 +44,60 @@ body {
 
 
 
-#wunklogo{  
-  width:100px;
-  height:100px;
-  display:block;
-  float:left;
-  text-align:center;
-  font-size: 5px;
-  font-style: italic;
+.testdiv {
+	background-color: #ffffff;
 }
 
-#logo {
-  width:300px; 
-  height:100px;
-}
-
-.square {
-  float: right;
-  height: 100px;
-  width: 300px;
-  background-color: #ffffff;
+.logo {
+  background-size: 50px;
+  overflow: auto;
+  margin-left:0%;
+  margin-right: auto;
+  padding-left: 0%;
+  margin-top: -0.6%;
+  display: block;
+  width:320px;
 }
 
 
-/* welcome 2 sillystation text */
-.title {
-  text-align: left;
-  color: #33f9d1;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-family: "Comic Sans MS";
-  font-size: 30px;
-  margin-right: 10px;
+
+
+.navwrapper {
+	background-color: #ffffff;
+	margin: auto;
+	width: 100%;
 }
 
-.basetext {
-  text-align: left;
-  color: #ffff42;
-  font-family: "Comic Sans MS";
-  font-size: 14px;
-  margin-right: 10px;
+.col-navbar {
+	grid-column: span 3;
+	background-color: red;
 }
 
-.img-with-text {
-    text-align: center;
-    margin-left: auto; 
-    margin-right: 0;
-    width: 200px;
-    color: #80ffff;
-    font-family: "Comic Sans MS";
+.col-right {
+	float: right;
+	width: 70%;
+	background-color: pink;
+}
+
+.col-left {
+	float: left;
+	width: 30%;
+	background-color: pink;
+
+	
+}
+.col-padding {
+	background-color: white;
+	padding:10px;
+	margin:4px;
+
+}
+
+
+.main-container {
+	background-color: cyan;
+	min-height: 100%;
+	width:80%;
+	position: absolute;
+	
 }
