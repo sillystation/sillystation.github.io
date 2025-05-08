@@ -1,5 +1,5 @@
 body {
-  background-image: url("bgs/amongussexbg.png");
+  background-image: url("bgs/bears.png");
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -63,41 +63,111 @@ body {
 
 
 .navwrapper {
-	background-color: #ffffff;
 	margin: auto;
 	width: 100%;
 }
 
 .col-navbar {
 	grid-column: span 3;
-	background-color: red;
+
 }
 
 .col-right {
 	float: right;
 	width: 70%;
-	background-color: pink;
+
+
 }
 
 .col-left {
 	float: left;
 	width: 30%;
-	background-color: pink;
+
 
 	
 }
-.col-padding {
-	background-color: white;
-	padding:10px;
+.col-border1 {
+
+
+	border:16px solid black;
+	border-image:url(bgs/border1.png) 40% round;
 	margin:4px;
 
 }
 
+.col-inner1 {
+	background-color: #dffcff;
+	padding:10px;
+
+}
+
+.col-border2 {
+
+
+	border:16px solid black;
+	border-image:url(bgs/border3.png) 40% round;
+	margin:4px;
+
+}
+
+.col-inner2 {
+	background-color: #f3f6f7;
+	padding:10px;
+
+}
 
 .main-container {
-	background-color: cyan;
+
 	min-height: 100%;
 	width:80%;
 	position: absolute;
+	margin:auto;
+	left:calc(10% - 0px);
 	
+	
+}
+.skin-wrapper {
+	background-image: url("bgs/bears.png");
+
+	width:100%;
+	position: fixed;
+	left:0px;
+	bottom:0px;
+	height:100%;
+	z-index:-1;
+	
+}
+
+
+
+.skin-gradient {
+	background-image: linear-gradient(rgba(255,0,0,0), rgba(255,255,255,1));
+
+	width:100%;
+	position: fixed;
+	bottom:0px;
+	height:255px;
+}
+
+.top-border {
+
+	border:16px solid black;
+	border-image:url(bgs/border4.png) 40% round;
+	margin:4px;
+	border-image-repeat: round;
+	margin-left:-26px;
+	width: calc(100% + 20px);
+	margin-top:-42px;
+	text-align: center;
+
+
+}
+
+.top-inner {
+	background-color: #fbfaff;
+	padding:1px;
+}
+
+#col-right-offset {
+	margin-top:20px;
 }
