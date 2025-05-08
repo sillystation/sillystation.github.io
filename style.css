@@ -171,3 +171,16 @@ body {
 #col-right-offset {
 	margin-top:20px;
 }
+
+.window-container {
+	position:relative;
+}
+
+.window-contents {
+	position: absolute;
+   top: 20px;
+   left: 20px; 
+    
+   padding: 5px;
+
+}
