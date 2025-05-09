@@ -157,7 +157,7 @@ body {
 	border-image-repeat: round;
 	margin-left:-26px;
 	width: calc(100% + 20px);
-	margin-top:-42px;
+	margin-top:-26px;
 	text-align: center;
 
 
@@ -168,9 +168,6 @@ body {
 	padding:1px;
 }
 
-#col-right-offset {
-	margin-top:20px;
-}
 
 .window-container {
 	position:relative;
@@ -183,4 +180,18 @@ body {
     
    padding: 5px;
 
+}
+
+.innernavbarwrapper {
+	width:100%;
+	text-align: center;
+	
+	
+}
+
+.innernavbar {
+	margin-right: auto;
+	margin-left: auto;
+	width:80%;
+	display: block;
 }
