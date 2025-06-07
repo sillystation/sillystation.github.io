@@ -1,6 +1,6 @@
 body {
-  background-image: url("bgs/bears.png");
-  width: 80%;
+	background-color: pink;
+	width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
@@ -127,27 +127,38 @@ body {
 	
 }
 .skin-wrapper {
-	background-image: url("bgs/bears.png");
-
 	width:100%;
+
+
+
+	
+}
+
+.skin {
+	background-image: url("bgs/bears.png");
+	z-index:-1;
+	width:150%;
 	position: fixed;
 	left:0px;
 	bottom:0px;
 	height:100%;
-	z-index:-1;
-	
+	animation: slide 6s linear infinite;
 }
-
 
 
 .skin-gradient {
-	background-image: linear-gradient(rgba(255,0,0,0), rgba(255,255,255,1));
-
-	width:100%;
+	background-image: url(graphics/sillystationclouds.png);
+	left:0px;
+	width:200%;
 	position: fixed;
 	bottom:0px;
-	height:255px;
+	min-height:18%;
+	background-repeat: repeat-x;
+	z-index:200;
+	display:flex;
+	animation: slide2 2s linear infinite;
 }
+
 
 .top-border {
 
@@ -194,4 +205,24 @@ body {
 	margin-left: auto;
 	width:100%;
 	display: block;
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-256px, 0, 0); /* The image width */
+  }
+}
+
+
+@keyframes slide2 {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-300px, 0, 0); /* The image width */
+  }
 }
